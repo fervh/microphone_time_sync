@@ -1,4 +1,4 @@
-# microphone_time_sync Package
+# microphone_time_sync
 
 `microphone_time_sync` is a ROS package that simulates a microphone node, which publishes audio data with synchronized timestamps. The main node, `microphone_node`, generates simulated audio data, timestamps it with the current system time, and publishes it to a specified topic.
 
