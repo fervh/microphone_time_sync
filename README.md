@@ -13,6 +13,17 @@
 
 ## How to Use:
 
+
+
+### 0. Clone the package in your workspace:
+
+```bash
+cd catkin_ws/src
+```
+```bash
+git clone https://github.com/fervh/microphone_time_sync
+```
+
 ### 1. Build the package in your workspace:
 
 ```bash
