@@ -1,0 +1,11 @@
+<launch>
+    <!-- Args -->
+    <arg name="topic_name" default="audio" />
+    <arg name="mic_device" default="default" />
+
+    <!-- Node -->
+    <node pkg="microphone_time_sync" type="microphone_node" name="microphone_node" output="screen">
+        <param name="topic_name" value="$(arg topic_name)" />
+        <param name="mic_device" value="$(arg mic_device)" />
+    </node>
+</launch>
