@@ -13,6 +13,13 @@
 
 ## How to Use:
 
+Install lame
+
+```bash
+sudo apt install libmp3lame-dev
+
+```
+
 
 
 ### 0. Clone the package in your workspace:
